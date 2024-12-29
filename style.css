@@ -45,12 +45,12 @@ nav ul li a {
 }
 
 .content h1, .content h2 {
-    font-size: 2em;
+    font-size: 2.5em;
     color: #333;
 }
 
 .content p {
-    font-size: 1.1em;
+    font-size: 1.2em;
     color: #555;
 }
 
@@ -61,7 +61,7 @@ nav ul li a {
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin-top: 20px;
 }
 
@@ -72,10 +72,12 @@ nav ul li a {
 ul {
     text-align: left;
     font-size: 1.1em;
+    margin: 20px auto;
+    display: inline-block;
 }
 
 ul li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 footer {
