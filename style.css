@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
@@ -30,42 +31,58 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-size: 1.2em;
 }
 
 .content {
     text-align: center;
-    margin: 20px;
+    margin: 30px auto;
+    max-width: 900px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-.content h1 {
-    font-size: 2.5em;
+.content h1, .content h2 {
+    font-size: 2em;
     color: #333;
 }
 
 .content p {
-    font-size: 1.2em;
-    color: #666;
+    font-size: 1.1em;
+    color: #555;
 }
 
 .cta-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 12px 25px;
     background-color: #007bff;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    margin-top: 20px;
 }
 
 .cta-button:hover {
     background-color: #0056b3;
 }
 
+ul {
+    text-align: left;
+    font-size: 1.1em;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
 footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 15px 0;
     position: fixed;
     width: 100%;
     bottom: 0;
